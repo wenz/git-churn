@@ -1,0 +1,21 @@
+Steps to run this project on the RIT's Research Computing system
+1. ssh into the RC system
+2. Use the following commands to view the info about the machine:
+    cluster-free
+    sinfo
+    my-accounts
+3. Enter the interactive terminal
+    sinteractive
+4. Load Go lang
+    spack load go
+5. Clone the repo is not cloned
+    got clone https://github.com/andymeneely/git-churn
+6. Pull the latest code
+    git pull
+7. Install and build the project
+    go install github.com/andymeneely/git-churn
+    go build
+8. Execute the code. For example:
+    ./git-churn --repo https://github.com/ashishgalagali/SWEN610-project --commit c800ce62fc8a10d5fe69adb283f06296820522c1 --filepath src/main/java/com/webcheckers/ui/WebServer.java
+9. For help with the arguments:
+    ./git-churn --help

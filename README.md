@@ -58,6 +58,7 @@ Flags:
   -p, --print              Prints the output in a human readable format (default true)
   -r, --repo string        Git Repository URL on which the churn metrics has to be computed
   -w, --whitespace         Excludes whitespaces while calculating the churn metrics is set to false (default true)
+  -l, --logging            Enable execution logs. Disables by default
 ```
 
 # Sample Output
